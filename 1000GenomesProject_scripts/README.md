@@ -15,15 +15,21 @@ Usage notes:
 These scripts require installation of the following perl modules:
 
 Database connection (1000genomes_vcf_read.pl and 1000genomes_output_json.pl):
+
 DBI
+
 DBD::mysql
 
 Retrieval of input data from servers at C3G (1000genomes_vcf_read.pl):
+
 WWW::Mechanize
+
 LWP::Simple
 
 JSON retrieval and validation (validate_json.pl):
+
 JSON
+
 JSON::Validator
 
 Validation also requires downloading the set of DATS schemata to a local directory; these can be found at https://github.com/biocaddie/DATS
