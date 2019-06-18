@@ -8,7 +8,7 @@ Files in this folder:
 
 DATS.json: Output 1000 Genomes Project DATS JSON file.
 
-validate_json.pl: perl script that validates user-specified JSON files against a user-specified schema, which has been used to validate the 1KGP JSON files against the DATS dataset_schema.json.
+validate_json.pl: perl script that validates user-specified JSON files against a user-specified schema, which has been used to validate the 1KGP JSON file against the DATS dataset_schema.json and the schemas linked within.
 
 Usage notes:
 
